@@ -39,5 +39,21 @@
     <loc>https://kleine-musikschule.de/#impressum</loc>
     <lastmod>2025-01-16T14:40:00+00:00</lastmod>
     <priority>0.5</priority>
+     </url>
+      <url>
+    <loc>https://www.youtube.com/channel/UC97VtOx-1JjK9tBdCSIJsXQ</loc>
+    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <priority>1.0</priority>
+      </url>
+      <url>
+    <loc>https://www.instagram.com/kleine.musikschule/</loc>
+    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <priority>1.0</priority>
+    </url>
+   <url>
+    <loc>https://www.tiktok.com/@kleinemusikschule?lang=de-DE</loc>
+    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <priority>1.0</priority>
+
   </url>
 </urlset>
