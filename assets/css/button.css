@@ -10,8 +10,9 @@ body {
 }
 
 button {
+  display: block;
   position: relative;
-  margin: 50px;
+  margin: auto;
   width: 400px;
   height: 100px;
   background: transparent;
