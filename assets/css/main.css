@@ -1665,3 +1665,19 @@ input, select, textarea {
 			margin-bottom: 30px;
 		   
 		  }
+		   footer address {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      text-align: center;
+    }
+    footer address span[itemprop],
+    footer address a[itemprop] {
+      display: inline;
+      margin: 0 0.25rem;
+    }
+	h2.major {
+  font-size: 1.25rem !important;
+}
+
