@@ -498,11 +498,19 @@ input[type=radio]:focus + label:before {
 input[type=checkbox] + label:before {
   border-radius: 4px;
 }
+<<<<<<< codex/improve-appearance-of-headlines-oob853
 
 input[type=radio] + label:before {
   border-radius: 100%;
 }
 
+=======
+
+input[type=radio] + label:before {
+  border-radius: 100%;
+}
+
+>>>>>>> main
 ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5) !important;
   opacity: 1;
@@ -654,6 +662,7 @@ ol {
 ol li {
   padding-left: 0.25em;
 }
+<<<<<<< codex/improve-appearance-of-headlines-oob853
 
 ul {
   list-style: disc;
@@ -688,6 +697,42 @@ dl dd {
   margin-left: 2rem;
 }
 
+=======
+
+ul {
+  list-style: disc;
+  margin: 0 0 2rem 0;
+  padding-left: 1em;
+}
+ul li {
+  padding-left: 0.5em;
+}
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+ul.alt li {
+  border-top: solid 1px #ffffff;
+  padding: 0.5em 0;
+}
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+dl {
+  margin: 0 0 2rem 0;
+}
+dl dt {
+  display: block;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+dl dd {
+  margin-left: 2rem;
+}
+
+>>>>>>> main
 /* Actions */
 ul.actions {
   display: -moz-flex;
@@ -975,6 +1020,7 @@ button {
   line-height: calc(2.75rem - 2px);
 }
 
+<<<<<<< codex/improve-appearance-of-headlines-oob853
 #preise .column {
   width: 50%;
   float: left;
@@ -991,6 +1037,8 @@ button {
   }
 }
 
+=======
+>>>>>>> main
 /* BG */
 #bg {
   -moz-transform: scale(1.0);
@@ -1038,7 +1086,11 @@ button {
   -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+<<<<<<< codex/improve-appearance-of-headlines-oob853
   background-image: url("../../img/guitar-chill.jpg");
+=======
+  background-image: url("../../images/bg.jpg");
+>>>>>>> main
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
