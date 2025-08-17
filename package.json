@@ -1,0 +1,12 @@
+{
+  "name": "webseite",
+  "version": "1.0.0",
+  "description": "Static website project",
+  "scripts": {
+    "build": "sass assets/sass:assets/css",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
