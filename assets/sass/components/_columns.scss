@@ -1,0 +1,16 @@
+/// Pricing columns
+#preise {
+        .price-row {
+                display: flex;
+        }
+
+        .column {
+                flex: 1;
+        }
+
+        @include breakpoint('<=small') {
+                .price-row {
+                        flex-direction: column;
+                }
+        }
+}
