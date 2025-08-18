@@ -102,7 +102,6 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
-/* Type */
 html {
   font-size: 16pt;
 }
@@ -987,7 +986,6 @@ button {
   }
 }
 
-/* BG */
 #bg {
   -moz-transform: scale(1.0);
   -webkit-transform: scale(1.0);
