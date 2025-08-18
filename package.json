@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "test": "node --check server.js"
+    "test": "node --check server.js",
+    "build": "node scripts/build.js",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   }
 }
