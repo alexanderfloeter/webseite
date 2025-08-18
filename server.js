@@ -20,6 +20,7 @@ const MIME_TYPES = {
   '.ico': 'image/x-icon',
   '.xml': 'application/xml',
   '.json': 'application/json',
+  '.txt': 'text/plain',
 };
 
 // Simple in-memory cache for small static files
