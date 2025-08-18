@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /*
 	Dimension by HTML5 UP
@@ -139,13 +139,13 @@ input, select, textarea {
 
 		}
 
-	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
-		line-height: 1.65;
-	}
+        body, input, select, textarea {
+                color: #ffffff;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 1.75;
+        }
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -1182,29 +1182,31 @@ input, select, textarea {
 
 /* Wrapper */
 
-	#wrapper {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
-		position: relative;
-		min-height: 100vh;
-		width: 100%;
-		padding: 4rem 2rem;
-		z-index: 3;
-	}
+        #wrapper {
+                display: -moz-flex;
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                -moz-flex-direction: column;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -moz-align-items: center;
+                -webkit-align-items: center;
+                -ms-align-items: center;
+                align-items: center;
+                -moz-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                -ms-justify-content: space-between;
+                justify-content: space-between;
+                position: relative;
+                min-height: 100vh;
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 4rem 2rem;
+                z-index: 3;
+        }
 
 		#wrapper:before {
 			content: '';
