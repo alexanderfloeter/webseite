@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /*
 	Dimension by HTML5 UP
@@ -141,10 +141,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.85;
 	}
 
 	a {
@@ -178,8 +178,8 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
-               text-transform: none;
+		margin: 0 0 0.5rem 0;
+		text-transform: none;
 		letter-spacing: 0.2rem;
 	}
 
@@ -195,7 +195,7 @@ input, select, textarea {
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			margin: 0 0 1rem 0;
 		}
 
 	h1 {
@@ -1202,6 +1202,8 @@ input, select, textarea {
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
 		padding: 4rem 2rem;
 		z-index: 3;
 	}
