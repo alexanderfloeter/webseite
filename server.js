@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 
 const port = process.env.PORT || 3000;
 const baseDir = __dirname;
@@ -30,8 +31,25 @@ http.createServer((req, res) => {
     }
     const ext = path.extname(filePath).toLowerCase();
     const contentType = mimeTypes[ext] || 'application/octet-stream';
-    res.writeHead(200, { 'Content-Type': contentType });
-    res.end(content);
+    const isHTML = ext === '.html';
+    const cacheControl = isHTML ? 'public, max-age=0' : 'public, max-age=31536000';
+    const headers = {
+      'Content-Type': contentType,
+      'Cache-Control': cacheControl
+    };
+    const enc = req.headers['accept-encoding'] || '';
+    if (enc.includes('br')) {
+      headers['Content-Encoding'] = 'br';
+      res.writeHead(200, headers);
+      zlib.brotliCompress(content, (e, buf) => res.end(e ? content : buf));
+    } else if (enc.includes('gzip')) {
+      headers['Content-Encoding'] = 'gzip';
+      res.writeHead(200, headers);
+      zlib.gzip(content, (e, buf) => res.end(e ? content : buf));
+    } else {
+      res.writeHead(200, headers);
+      res.end(content);
+    }
   });
 }).listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
