@@ -1,43 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Created manually based on your navigation -->
   <url>
     <loc>https://kleine-musikschule.de/#</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#ueber-uns</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#lehre</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#angebot</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#preise</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#kontakt</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#daten</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/#impressum</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-08-18T09:54:18+00:00</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>
