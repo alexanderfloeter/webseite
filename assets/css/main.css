@@ -1676,7 +1676,7 @@ input, select, textarea {
       display: inline;
       margin: 0 0.25rem;
     }
-	h2.major {
-  font-size: 1.25rem !important;
+        h2.major {
+  font-size: 1.75rem;
 }
 
