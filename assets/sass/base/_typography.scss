@@ -45,10 +45,10 @@
 		}
 	}
 
-	strong, b {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-	}
+       strong, b {
+               color: #ffcc00;
+               font-weight: _font(weight-bold);
+       }
 
 	em, i {
 		font-style: italic;
